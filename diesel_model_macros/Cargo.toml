@@ -1,0 +1,14 @@
+[package]
+name = "diesel_model_macros"
+version = "0.1.0"
+authors = ["Travis Miller <travis@travismiller.com>"]
+edition = "2018"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+diesel = "1.4"
+proc-macro2 = "1.0"
+quote = "1.0"
+syn = "1.0"

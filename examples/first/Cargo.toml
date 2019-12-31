@@ -1,0 +1,10 @@
+[package]
+name = "diesel_model_macro_example_first"
+version = "0.1.0"
+authors = ["Travis Miller <travis@travismiller.com>"]
+edition = "2018"
+
+[dependencies]
+diesel = { version = "1.4", features = ["mysql"] }
+diesel_model = { path = "../../diesel_model" }
+diesel_model_macros = { path = "../../diesel_model_macros" }

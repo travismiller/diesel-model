@@ -1,0 +1,6 @@
+[workspace]
+members = [
+  "diesel_model",
+  "diesel_model_macros",
+  "examples/first",
+]

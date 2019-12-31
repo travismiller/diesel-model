@@ -1,0 +1,5 @@
+[package]
+name = "diesel_model"
+version = "0.1.0"
+authors = ["Travis Miller <travis@travismiller.com>"]
+edition = "2018"
