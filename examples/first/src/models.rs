@@ -1,7 +1,7 @@
 use crate::schema::posts;
-use diesel_model_macros::model;
+use diesel::mysql::Mysql;
 
-#[model(posts)]
+#[model(backend = Mysql, schema = posts)]
 #[derive(Identifiable, Queryable)]
 #[table_name = "posts"] // Identifiable
 pub struct Post {
